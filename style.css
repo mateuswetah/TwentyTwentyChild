@@ -1,0 +1,30 @@
+/*
+Theme Name:     Twenty-twenty-child
+Theme URI:      
+Description:    Twentytwenty child theme.
+Author:         Me
+Author URI:     
+Template:       twentytwenty
+Version:        0.1.0
+*/
+
+/* Related to Tainacan special templates */
+.tainacan-collection-header {
+    display: flex;
+}
+
+.tainacan-collection-header .hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-left: 6px solid white;
+}
+
+.tainacan-collection-header .hero img {
+    opacity: 0;
+}
+
+.tainacan-taxonomy-header img {
+    max-width: 320px;
+    margin: 0px auto;
+}
